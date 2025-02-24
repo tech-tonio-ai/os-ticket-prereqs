@@ -18,11 +18,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Web Server: Apache, LiteSpeed, or IIS (with URL Rewrite module enabled)
+- PHP Version: 8.1 - 8.2 (8.2 recommended)
+- Database: MySQL 5.0 or newer
+- MySQL Requirements:
+- One database with a valid user, password, and hostname
+- User must have FULL privileges on the database
 
 <h2>Installation Steps</h2>
 
