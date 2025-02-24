@@ -27,14 +27,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 - In Azure Portal:
+
   - Creeate a virtual machine (Windows 10)
+    
   - Get it's ip
+    
   - Use Remote Desktop Protocol(RDP) to connect to Vm
 <p>
-  ![osTicket Installation Prerequisites](https://i.imgur.com/HYl6ZmN.png)
+ <img src="https://i.imgur.com/HYl6ZmN.png"/>
 </p>
+
+RDP
 <p>
-https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
+![Screenshot 2025-02-24 122917](https://github.com/user-attachments/assets/61af88b7-1de9-4077-9f07-60d6a1f45136)
 </p>
 <br />
 
