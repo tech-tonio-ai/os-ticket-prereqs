@@ -26,9 +26,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - User must have FULL privileges on the database
 
 <h2>Installation Steps</h2>
-
+- In Azure Portal:
+  - Creeate a virtual machine (Windows 10)
+  - Get it's ip
+  - Use Remote Desktop Protocol(RDP) to connect to Vm
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  ![osTicket Installation Prerequisites](https://i.imgur.com/HYl6ZmN.png)
 </p>
 <p>
 https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
