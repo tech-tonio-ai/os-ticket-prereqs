@@ -101,6 +101,11 @@ Reload IIS (Open IIS, Stop and Start the server)
 Go to sites -> Default -> osTicket
 On the right, click “Browse *:80”
 
+We should see the "Congratulations!" page
+<p>
+<img src="https://i.imgur.com/70zx2LU.png" />
+</p>
+
 Note that some extensions are not enabled
   - Go back to IIS, sites -> Default -> osTicket
   - Double-click PHP Manager
@@ -133,5 +138,6 @@ Continue Setting up osTicket in the browser
 - MySQL Username: root
 - MySQL Password: root
 - Click “Install Now!”
+
 
 <br />
