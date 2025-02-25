@@ -140,4 +140,10 @@ Continue Setting up osTicket in the browser
 - Click “Install Now!”
 
 
+We can now access the admin login page from IIS
+<p>
+  <img src="https://i.imgur.com/aA0Kt4r.png" />
+</p>
+
+
 <br />
