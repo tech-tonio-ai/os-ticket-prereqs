@@ -145,5 +145,9 @@ We can now access the admin login page from IIS
   <img src="https://i.imgur.com/aA0Kt4r.png" />
 </p>
 
+And the User login page
+<p>
+  <img src="https://i.imgur.com/m1Ghe7j.png" />
+</p>
 
 <br />
