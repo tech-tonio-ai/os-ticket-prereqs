@@ -61,47 +61,40 @@ We should see that IIS is running:
 <img src="https://i.imgur.com/MMwNA6o.png" />
 
 </p>
+## osTicket Installation Steps
 
-From the “osTicket-Installation-Files” folder
-  -install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+### 1. Install Required Components  
+From the **"osTicket-Installation-Files"** folder:  
+- Install **PHP Manager for IIS** (`PHPManagerForIIS_V1.5.0.msi`)  
+- Install **Rewrite Module** (`rewrite_amd64_en-US.msi`)  
+- Create the directory `C:\PHP`  
+- Unzip **PHP 7.3.8** (`php-7.3.8-nts-Win32-VC15-x86.zip`) into `C:\PHP`  
+- Install **VC Redist** (`VC_redist.x86.exe`)  
+- Install **MySQL 5.5.62** (`mysql-5.5.62-win32.msi`)  
+  - Select **Typical Setup**  
+  - Launch **Configuration Wizard** after installation  
+  - Choose **Standard Configuration**  
+  - Set **Username: root**, **Password: root**  
 
-From the “osTicket-Installation-Files” folder
-  - install the Rewrite Module (rewrite_amd64_en-US.msi)
+### 2. Configure IIS  
+- Open **IIS as Administrator**  
+- Register PHP in IIS:  
+  - Open **PHP Manager** -> Set path to `C:\PHP\php-cgi.exe`  
+- Reload IIS: **Stop and Start the server**  
 
-Create the directory C:\PHP
+### 3. Install osTicket  
+From the **"osTicket-Installation-Files"** folder:  
+- Unzip **osTicket v1.15.8** (`osTicket-v1.15.8.zip`)  
+- Copy the **"upload"** folder to `C:\inetpub\wwwroot`  
+- Rename **"upload"** to **"osTicket"**  
+- Reload IIS: **Stop and Start the server**  
 
-From the “osTicket-Installation-Files” folder
-  - unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+### 4. Verify Installation  
+- In IIS, navigate to:  
+  - **Sites** -> **Default** -> **osTicket**  
+  - On the right, click **“Browse *:80”**  
+- You should see the **"Congratulations!"** page 🎉  
 
-From the “osTicket-Installation-Files” folder
-  - install VC_redist.x86.exe.
-
-From the “osTicket-Installation-Files” folder
-  - install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-Typical Setup ->
-  - Launch Configuration Wizard (after install) ->
-Standard Configuration ->
-  - Username: root
-  - Password: root
-
-Open IIS as an Admin
-
-Register PHP from within IIS (PHP Manager ->
-  - C:\PHP\php-cgi.exe)
-
-Reload IIS (Open IIS, Stop and Start the server)
-
-Install osTicket v1.15.8
-From the “osTicket-Installation-Files” folder,
-  - unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
-  - Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
-
-Reload IIS (Open IIS, Stop and Start the server)
-
-Go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
-
-We should see the "Congratulations!" page
 <p>
 <img src="https://i.imgur.com/70zx2LU.png" />
 </p>
