@@ -52,6 +52,10 @@ https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
   
 Install / Enable IIS in Windows WITH CGI
 World Wide Web Services -> Application Development Features -> [X] CGI
+<p>
+<img src="https://i.imgur.com/kERWGk7.png" />
+
+</p>
 
 From the “osTicket-Installation-Files” folder
   -install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
