@@ -56,6 +56,11 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 <img src="https://i.imgur.com/kERWGk7.png" />
 
 </p>
+We should see that IIS is running:
+<p>
+<img src="https://i.imgur.com/MMwNA6o.png" />
+
+</p>
 
 From the “osTicket-Installation-Files” folder
   -install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
