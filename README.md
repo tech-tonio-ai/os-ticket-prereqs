@@ -153,6 +153,8 @@ From the **"osTicket-Installation-Files"** folder:
   <img src="https://i.imgur.com/aA0Kt4r.png" />
 </p>
 
+[CONTINUE TO NEXT SECTION](https://github.com/tech-tonio-ai/post-install-config)
+
   - And the User login page
 <p>
   <img src="https://i.imgur.com/m1Ghe7j.png" />
