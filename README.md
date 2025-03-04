@@ -33,32 +33,32 @@ This guide covers the installation of the open-source help desk system osTicket,
   - Get it's ip
     
   - Use Remote Desktop Protocol(RDP) to connect to Vm
-<p>
- <img src="https://i.imgur.com/HYl6ZmN.png"/>
+<p align="center">
+ <img src="https://i.imgur.com/HYl6ZmN.png" width="45%"/>
 </p>
 
 RDP
-<p>
-<img src="https://i.imgur.com/V6xOT8l.png"/>
-
+<p align="center">
+<img src="https://i.imgur.com/V6xOT8l.png" width="45%"/>
 </p>
 <br />
 Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
 We will use the files in this folder to install osTicket and some of the dependencies.
 
 https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
-<p>
-<img src="https://i.imgur.com/HmMf6Yp.png" />
+<p align="center">
+<img src="https://i.imgur.com/HmMf6Yp.png" width="45%" />
+</p>
   
 Install / Enable IIS in Windows WITH CGI
 World Wide Web Services -> Application Development Features -> [X] CGI
-<p>
-<img src="https://i.imgur.com/kERWGk7.png" />
+<p align="center">
+<img src="https://i.imgur.com/kERWGk7.png" width="45%" />
 
 </p>
 We should see that IIS is running:
-<p>
-<img src="https://i.imgur.com/MMwNA6o.png" />
+<p align="center">
+<img src="https://i.imgur.com/MMwNA6o.png" width="45%" />
 
 </p>
 ## osTicket Installation Steps
@@ -95,7 +95,7 @@ From the **"osTicket-Installation-Files"** folder:
   - On the right, click **“Browse *:80”**  
 - You should see the **"Congratulations!"** page 🎉  
 
-<p>
+<p align="center">
 <img src="https://i.imgur.com/70zx2LU.png" />
 </p>
 
@@ -149,15 +149,17 @@ From the **"osTicket-Installation-Files"** folder:
 - Navigate to the osTicket admin login page  
 
 
-<p>
-  <img src="https://i.imgur.com/aA0Kt4r.png" />
+<p align="center">
+  <img src="https://i.imgur.com/aA0Kt4r.png" style="width:45%;">
+
+  </p>
+
+
+
+  - And the User login page
+<p align="center">
+  <img src="https://i.imgur.com/m1Ghe7j.png" width="45%" />
 </p>
 
 [CONTINUE TO NEXT SECTION](https://github.com/tech-tonio-ai/post-install-config)
-
-  - And the User login page
-<p>
-  <img src="https://i.imgur.com/m1Ghe7j.png" />
-</p>
-
 <br />
